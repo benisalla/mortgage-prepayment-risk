@@ -1,0 +1,7 @@
+key,statement,verdict,detail,effect_pp,p_value,spearman
+H1,Lower credit score -> higher prepayment,supported,<650: 35.5% -> 750+: 27.2%,8.269343236350252,1.0382499858391282e-161,-0.05608816239785362
+H2,Higher LTV -> higher prepayment,supported,<=60: 26.0% -> >90: 32.8%,6.793924757289288,1.1466559609951035e-117,0.045698511868927344
+H3,Investment properties prepay more than owner-occupied,no material effect,I: 31.0% vs others 30.5%,0.48161387861185845,3.5248572066632873e-06,
+H4,ARMs prepay more than FRMs,not testable,every loan in the extract is a fixed-rate mortgage (0 ARMs),,,
+H5,Higher DTI -> higher prepayment,supported,<=20: 25.1% -> >40: 31.5%,6.446951534719137,2.3031792222372352e-127,0.05153402842684857
+H6,Lower origination rate -> higher prepayment,contradicted,<=6.75%: 24.7% -> >7.125%: 42.9%,-18.21160165966455,0.0,0.13334875063360718

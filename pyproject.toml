@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mbs-risk"
+version = "1.0.0"
+description = "Delinquency and prepayment-risk modelling on Freddie Mac single-family mortgage loans"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPL-3.0-only" }
+authors = [{ name = "Ismail Ben Alla" }]
+keywords = ["mortgage", "prepayment-risk", "credit-risk", "mbs", "scikit-learn", "xgboost"]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.4",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "joblib>=1.3",
+    "xgboost>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "tabulate>=0.9", "nbformat>=5.9", "nbclient>=0.9", "ipykernel>=6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

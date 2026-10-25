@@ -1,0 +1,250 @@
+{
+  "EverDelinquent": {
+    "best_model": "hist_gb",
+    "n_test": 58291,
+    "prevalence": 0.1978521555643238,
+    "models": {
+      "majority": {
+        "roc_auc": 0.5,
+        "pr_auc": 0.1978521556,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "threshold": 0.5,
+        "brier": 0.1587066801,
+        "accuracy": 0.8021478444,
+        "cv_roc_auc_mean": null,
+        "cv_roc_auc_std": null,
+        "fit_seconds": 2.5005443096
+      },
+      "logreg": {
+        "roc_auc": 0.7130926325,
+        "pr_auc": 0.3735947847,
+        "f1": 0.4359045935,
+        "precision": 0.3393374541,
+        "recall": 0.6092950663,
+        "threshold": 0.2147422339,
+        "brier": 0.1437525631,
+        "accuracy": 0.6879964317,
+        "cv_roc_auc_mean": 0.7104237413,
+        "cv_roc_auc_std": 0.0026264434,
+        "fit_seconds": 10.3320407867
+      },
+      "random_forest": {
+        "roc_auc": 0.7130747877,
+        "pr_auc": 0.3762502213,
+        "f1": 0.4355227432,
+        "precision": 0.3359691236,
+        "recall": 0.618919622,
+        "threshold": 0.212029942,
+        "brier": 0.1437754213,
+        "accuracy": 0.6825753547,
+        "cv_roc_auc_mean": null,
+        "cv_roc_auc_std": null,
+        "fit_seconds": 56.9105513096
+      },
+      "hist_gb": {
+        "roc_auc": 0.7168602566,
+        "pr_auc": 0.3791680836,
+        "f1": 0.4387969078,
+        "precision": 0.3433245176,
+        "recall": 0.6078210353,
+        "threshold": 0.2150938626,
+        "brier": 0.142968922,
+        "accuracy": 0.6923881903,
+        "cv_roc_auc_mean": 0.7134124061,
+        "cv_roc_auc_std": 0.0030095137,
+        "fit_seconds": 54.065605402
+      },
+      "xgboost": {
+        "roc_auc": 0.7152658652,
+        "pr_auc": 0.3795393771,
+        "f1": 0.435193186,
+        "precision": 0.3378371904,
+        "recall": 0.6113760513,
+        "threshold": 0.2138585448,
+        "brier": 0.1431682855,
+        "accuracy": 0.6860235714,
+        "cv_roc_auc_mean": 0.7115097666,
+        "cv_roc_auc_std": 0.0023611132,
+        "fit_seconds": 21.5219435692
+      }
+    },
+    "top_features": [
+      {
+        "feature": "CreditScore",
+        "importance": 0.15290238400774467,
+        "std": 0.0014211804977302311
+      },
+      {
+        "feature": "NumBorrowers",
+        "importance": 0.011229365164336072,
+        "std": 0.0004825889266686894
+      },
+      {
+        "feature": "SellerName",
+        "importance": 0.009861893143025177,
+        "std": 0.0010467095195444956
+      },
+      {
+        "feature": "PropertyState",
+        "importance": 0.005684478249836866,
+        "std": 0.0003570937543369111
+      },
+      {
+        "feature": "Channel",
+        "importance": 0.0024034836694394324,
+        "std": 0.00014691422191998342
+      },
+      {
+        "feature": "MSA",
+        "importance": 0.0022582035440998904,
+        "std": 0.0003410436938074184
+      },
+      {
+        "feature": "PropertyType",
+        "importance": 0.0020363119366553217,
+        "std": 0.0005823604083607195
+      },
+      {
+        "feature": "LoanPurpose",
+        "importance": 0.0020104780757540888,
+        "std": 0.00039119881576839683
+      },
+      {
+        "feature": "EstMonthlyIncome",
+        "importance": 0.0013070263368409514,
+        "std": 0.00025603015924664465
+      },
+      {
+        "feature": "DTI",
+        "importance": 0.000914185673560608,
+        "std": 0.00019355516245785542
+      }
+    ]
+  },
+  "Prepaid36": {
+    "best_model": "hist_gb",
+    "n_test": 46758,
+    "prevalence": 0.3051242568116686,
+    "models": {
+      "majority": {
+        "roc_auc": 0.5,
+        "pr_auc": 0.3051242568,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "threshold": 0.5,
+        "brier": 0.2120234447,
+        "accuracy": 0.6948757432,
+        "cv_roc_auc_mean": null,
+        "cv_roc_auc_std": null,
+        "fit_seconds": 3.3380794525
+      },
+      "logreg": {
+        "roc_auc": 0.6786670366,
+        "pr_auc": 0.5170422072,
+        "f1": 0.5052459386,
+        "precision": 0.4227193355,
+        "recall": 0.6278124343,
+        "threshold": 0.2812887803,
+        "brier": 0.1902440306,
+        "accuracy": 0.624834253,
+        "cv_roc_auc_mean": 0.6778471343,
+        "cv_roc_auc_std": 0.0019412013,
+        "fit_seconds": 7.1962509155
+      },
+      "random_forest": {
+        "roc_auc": 0.6959178091,
+        "pr_auc": 0.5419348131,
+        "f1": 0.5175285288,
+        "precision": 0.4085873138,
+        "recall": 0.7056844466,
+        "threshold": 0.2562447786,
+        "brier": 0.1859537947,
+        "accuracy": 0.598528594,
+        "cv_roc_auc_mean": null,
+        "cv_roc_auc_std": null,
+        "fit_seconds": 42.0732340813
+      },
+      "hist_gb": {
+        "roc_auc": 0.6996575554,
+        "pr_auc": 0.5505646689,
+        "f1": 0.5187381887,
+        "precision": 0.443213434,
+        "recall": 0.6252891288,
+        "threshold": 0.2758868526,
+        "brier": 0.1842384039,
+        "accuracy": 0.6459857137,
+        "cv_roc_auc_mean": 0.7005992092,
+        "cv_roc_auc_std": 0.0027466266,
+        "fit_seconds": 26.6707003117
+      },
+      "xgboost": {
+        "roc_auc": 0.6975022529,
+        "pr_auc": 0.5499655338,
+        "f1": 0.5194623355,
+        "precision": 0.4325420883,
+        "recall": 0.6501016331,
+        "threshold": 0.2666142583,
+        "brier": 0.184615761,
+        "accuracy": 0.6330039779,
+        "cv_roc_auc_mean": 0.6998717015,
+        "cv_roc_auc_std": 0.0022401948,
+        "fit_seconds": 13.9404149055
+      }
+    },
+    "top_features": [
+      {
+        "feature": "SellerName",
+        "importance": 0.05758347967029065,
+        "std": 0.0014659488868970956
+      },
+      {
+        "feature": "OrigInterestRate",
+        "importance": 0.046095037156411646,
+        "std": 0.00026649654762533653
+      },
+      {
+        "feature": "LTV",
+        "importance": 0.03315887579661244,
+        "std": 0.0018406345230548168
+      },
+      {
+        "feature": "MIP",
+        "importance": 0.011549717012797648,
+        "std": 0.001897855415972904
+      },
+      {
+        "feature": "CreditScore",
+        "importance": 0.010184533098996843,
+        "std": 0.0016001118201999574
+      },
+      {
+        "feature": "Channel",
+        "importance": 0.00858589695647749,
+        "std": 0.000465126399886636
+      },
+      {
+        "feature": "DTI",
+        "importance": 0.008012224502358242,
+        "std": 0.0008497773276517098
+      },
+      {
+        "feature": "MSA",
+        "importance": 0.00777985394826534,
+        "std": 0.0013013028620617107
+      },
+      {
+        "feature": "PropertyState",
+        "importance": 0.006890235784342928,
+        "std": 0.0002321732983159178
+      },
+      {
+        "feature": "VintageMonth",
+        "importance": 0.006634970441957859,
+        "std": 0.0002968526303360128
+      }
+    ]
+  }
+}
